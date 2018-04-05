@@ -1,6 +1,6 @@
 {
   "project": {
-    "version": "1.0.0-beta.28.3",
+    "version": "1.0.0",
     "name": "angular5-crud"
   },
   "apps": [
@@ -22,8 +22,8 @@
         "styles.css"
       ],
       "scripts": [],
+      "environmentSource": "environments/environment.ts",
       "environments": {
-        "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       }
@@ -35,11 +35,6 @@
       "project": "src/tsconfig.json"
     }
   ],
-  "test": {
-    "karma": {
-      "config": "./karma.conf.js"
-    }
-  },
   "defaults": {
     "styleExt": "css",
     "prefixInterfaces": false,
